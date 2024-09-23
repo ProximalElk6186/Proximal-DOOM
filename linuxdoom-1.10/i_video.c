@@ -216,7 +216,7 @@ void I_InitGraphics(void)
 	else
 		output_height = SCREENHEIGHT * multiply;
 
-	IB_InitGraphics("clowndoom", 640, 480, &bytes_per_pixel, OutputSizeChanged);
+	IB_InitGraphics("Proximal-DOOM", 640, 480, &bytes_per_pixel, OutputSizeChanged);
 
 	I_GrabMouse(d_true);
 
